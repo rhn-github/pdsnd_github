@@ -1,4 +1,4 @@
-roject Title: Richard's Bikeshare Project
+Project Title: Richard's Bikeshare Project
 
 Description:
 This Project enables the user to explore data related to bike share systems for three major cities in the United States,
