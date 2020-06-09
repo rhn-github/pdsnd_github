@@ -1,15 +1,17 @@
-### Date created
-Include the date you created this project and README file.
+roject Title: Richard's Bikeshare Project
 
-### Project Title
-Replace the Project Title
+Description:
+This Project enables the user to explore data related to bike share systems for three major cities in the United States,
+—Chicago, 
+-New York City, 
+-Washington. 
 
-### Description
-Describe what your project is about and what it does
+Files used:
+bikeshare.py		(the Python code)
+chicago.csv			(data for Chicago)
+new_york_city.csv 	(data for New York City)
+washington.csv		(data for Washington D.C)
 
-### Files used
-Include the files used
-
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Credits:
+Credit to Udacity for providing a structured training to enable the creation of this project
+and to all the open source programmers out there for providing us with Python, Git and Git Hub!
