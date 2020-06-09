@@ -12,6 +12,8 @@ chicago.csv			(data for Chicago)
 new_york_city.csv 	(data for New York City)
 washington.csv		(data for Washington D.C)
 
+Note: that the csv Files have not been pushed to the Remote Repository.
+
 Credits:
 Credit to Udacity for providing a structured training to enable the creation of this project
 and to all the open source programmers out there for providing us with Python, Git and Git Hub!
