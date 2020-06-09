@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 import calendar as ca
 
-CITY_DATA = { 'chicago': 'chicago.csv',
+city_data = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
@@ -69,7 +69,7 @@ def load_data(city, month, day):
         df - Pandas DataFrame containing city data filtered by month and day
     """
     
-    df = pd.read_csv(CITY_DATA[city])
+    df = pd.read_csv(city_data[city])
          
     # convert the Start Time column to datetime
     df['Start Time'] = pd.to_datetime(df['Start Time']) 
@@ -135,7 +135,7 @@ def time_stats(df):
     # find the most popular hour
     popular_hour = df['hour'].mode()[0]
 
-    print('Most Popular Start Hour:', str(popular_hour) + '00 to ' + str(popular_hour) +'59.')
+    print('Most Popular Start Hour:' {} '00 to ' {} '59.'.format(popular_hour))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
