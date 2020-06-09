@@ -1,3 +1,8 @@
+"""
+This is the Python code for Richard's Bikeshare Project.
+Please Note that the CSV files listed in CITY DATA were not pushed to the Remote Repository
+"""
+
 import time
 import pandas as pd
 import numpy as np
